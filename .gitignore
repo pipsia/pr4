@@ -1,0 +1,20 @@
+cd ~/practical_work_4
+cat << 'EOF' > .gitignore
+/server
+/client
+
+*.o
+
+/build/
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+
+/.vscode/
+/.idea/
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+EOF
